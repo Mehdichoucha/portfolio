@@ -1,0 +1,86 @@
+body{
+        background-color:cadetblue;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        padding: 20px;
+        font-size: 20px;
+    }
+    header{
+    background-color:rgb(0, 191, 255);
+    height: 60px;
+    margin: 10px; 
+    position: sticky;
+    top: 0px; 
+    padding: 10px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: antiquewhite;
+    }
+    #hamburger{
+        display: none;
+    }
+    #hamburger-logo{
+        display: none;
+    }
+    nav a:hover{
+        color:#fff358;
+        text-decoration: underline;
+    }
+    .titre{
+        background-color: rgb(0, 191, 255);;
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 30px;
+        margin-bottom: 60px;
+        border-style: solid;
+        border-radius: 1px;
+        border-color: antiquewhite;
+    }
+    .right{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .left{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    img{
+        width: 440px;
+        height: 340px;
+        border-style: solid;
+        border-radius: 1px;
+        border-color: antiquewhite;
+        margin-left: 30px;
+        margin-right: 100px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    main{
+        color: aliceblue;
+    }
+    article{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-style: solid;
+        border-radius: 1px;
+        border-color: antiquewhite;
+        background-color: rgb(50, 204, 255);
+        font-size: 20px;
+    
+    }
+    aside{
+        margin: 70px;
+    }
+    footer{
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }    
