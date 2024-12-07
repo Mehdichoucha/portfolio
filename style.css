@@ -1,0 +1,71 @@
+body{
+    background-color:black;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 20px;
+    font-size: 20px;
+}
+header{
+background-color:rgb(0, 191, 255);
+height: 60px;
+margin: 10px;
+position: sticky;
+top: 0px;
+padding: 10px;
+border-style: solid;
+border-radius: 1px;
+border-color:rgba(255, 255, 255, 0.514);
+}
+#hamburger{
+    display: none;
+}
+#hamburger-logo{
+    display: none;
+}
+nav a:hover{
+    color:#fff358;
+    text-decoration: underline;
+}
+
+#home-page{
+    color: aliceblue;
+}
+#home-page img{
+    width: 300px;
+    height: 280px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: antiquewhite;
+}
+#home-page section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    margin-top: 40px;
+}
+#home-page aside{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.titre{
+    background-color:aquamarine ;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: antiquewhite;
+}
+footer{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
